@@ -1,7 +1,7 @@
-package spring_study.spring.spring_core_basic.Discount;
+package spring_study.spring.Discount;
 
-import spring_study.spring.spring_core_basic.member.Grade;
-import spring_study.spring.spring_core_basic.member.Member;
+import spring_study.spring.member.Grade;
+import spring_study.spring.member.Member;
 
 public class RateDiscountPolicy implements DiscountPolicy{
     private int discountPercent = 10;

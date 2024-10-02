@@ -3,10 +3,9 @@ package spring_study.spring.spring_core_basic.Discount;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import spring_study.spring.spring_core_basic.member.Grade;
-import spring_study.spring.spring_core_basic.member.Member;
-
-import static org.junit.jupiter.api.Assertions.*;
+import spring_study.spring.Discount.RateDiscountPolicy;
+import spring_study.spring.member.Grade;
+import spring_study.spring.member.Member;
 
 class RateDiscountPolicyTest {
 

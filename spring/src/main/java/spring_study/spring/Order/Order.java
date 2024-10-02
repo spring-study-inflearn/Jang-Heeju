@@ -1,4 +1,4 @@
-package spring_study.spring.spring_core_basic.Order;
+package spring_study.spring.Order;
 
 public class Order {
 

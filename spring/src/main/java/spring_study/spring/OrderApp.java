@@ -1,14 +1,12 @@
-package spring_study.spring.spring_core_basic;
+package spring_study.spring;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import spring_study.spring.spring_core_basic.AppConfig;
-import spring_study.spring.spring_core_basic.Order.Order;
-import spring_study.spring.spring_core_basic.Order.OrderService;
-import spring_study.spring.spring_core_basic.member.Grade;
-import spring_study.spring.spring_core_basic.member.Member;
-import spring_study.spring.spring_core_basic.member.MemberService;
-import spring_study.spring.spring_core_basic.member.MemberServiceImpl;
+import spring_study.spring.Order.Order;
+import spring_study.spring.Order.OrderService;
+import spring_study.spring.member.Grade;
+import spring_study.spring.member.Member;
+import spring_study.spring.member.MemberService;
 
 public class OrderApp {
     public static void main(String[] args) {

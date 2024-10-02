@@ -4,12 +4,7 @@ package spring_study.spring.member;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.autoconfigure.condition.ConditionalOnCheckpointRestore;
-import spring_study.spring.spring_core_basic.AppConfig;
-import spring_study.spring.spring_core_basic.member.Grade;
-import spring_study.spring.spring_core_basic.member.Member;
-import spring_study.spring.spring_core_basic.member.MemberService;
-import spring_study.spring.spring_core_basic.member.MemberServiceImpl;
+import spring_study.spring.AppConfig;
 
 public class MemberServiceTest {
     MemberService memberService;// = new MemberServiceImpl();

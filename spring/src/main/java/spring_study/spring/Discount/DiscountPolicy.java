@@ -1,6 +1,6 @@
-package spring_study.spring.spring_core_basic.Discount;
+package spring_study.spring.Discount;
 
-import spring_study.spring.spring_core_basic.member.Member;
+import spring_study.spring.member.Member;
 
 public interface DiscountPolicy {
     // return 할인 대상 금액

@@ -1,16 +1,15 @@
-package spring_study.spring.spring_core_basic;
+package spring_study.spring;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import spring_study.spring.spring_core_basic.Discount.DiscountPolicy;
-import spring_study.spring.spring_core_basic.Discount.FixDiscountPolicy;
-import spring_study.spring.spring_core_basic.Discount.RateDiscountPolicy;
-import spring_study.spring.spring_core_basic.Order.OrderService;
-import spring_study.spring.spring_core_basic.Order.OrderServiceImpl;
-import spring_study.spring.spring_core_basic.member.MemberRespository;
-import spring_study.spring.spring_core_basic.member.MemberService;
-import spring_study.spring.spring_core_basic.member.MemberServiceImpl;
-import spring_study.spring.spring_core_basic.member.MemoryMemberRespository;
+import spring_study.spring.Discount.DiscountPolicy;
+import spring_study.spring.Discount.RateDiscountPolicy;
+import spring_study.spring.Order.OrderService;
+import spring_study.spring.Order.OrderServiceImpl;
+import spring_study.spring.member.MemberRespository;
+import spring_study.spring.member.MemberService;
+import spring_study.spring.member.MemberServiceImpl;
+import spring_study.spring.member.MemoryMemberRespository;
 
 @Configuration
 public class AppConfig {

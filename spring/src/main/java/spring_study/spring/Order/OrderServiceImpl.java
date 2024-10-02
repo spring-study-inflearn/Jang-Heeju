@@ -1,10 +1,8 @@
-package spring_study.spring.spring_core_basic.Order;
+package spring_study.spring.Order;
 
-import spring_study.spring.spring_core_basic.Discount.DiscountPolicy;
-import spring_study.spring.spring_core_basic.Discount.FixDiscountPolicy;
-import spring_study.spring.spring_core_basic.member.Member;
-import spring_study.spring.spring_core_basic.member.MemberRespository;
-import spring_study.spring.spring_core_basic.member.MemoryMemberRespository;
+import spring_study.spring.Discount.DiscountPolicy;
+import spring_study.spring.member.Member;
+import spring_study.spring.member.MemberRespository;
 
 public class OrderServiceImpl implements OrderService{
 

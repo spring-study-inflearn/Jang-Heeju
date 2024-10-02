@@ -1,4 +1,4 @@
-package spring_study.spring.spring_core_basic.Order;
+package spring_study.spring.Order;
 
 public interface OrderService {
     Order createOrder(Long memberId, String itemName, int itemPrice);

@@ -7,9 +7,8 @@ import org.springframework.beans.factory.NoUniqueBeanDefinitionException;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import spring_study.spring.spring_core_basic.member.Member;
-import spring_study.spring.spring_core_basic.member.MemberRespository;
-import spring_study.spring.spring_core_basic.member.MemoryMemberRespository;
+import spring_study.spring.member.MemberRespository;
+import spring_study.spring.member.MemoryMemberRespository;
 
 import java.util.Map;
 
